@@ -191,6 +191,22 @@
     border-radius: 4px;
     box-sizing: border-box;
   }
+  .container-fluid .main #list-item-6 input[type=text]:hover{
+      border:none;
+      outline-offset: none;
+      box-shadow: 3px 3px 3px chocolate;
+  }
+  .container-fluid .main #list-item-6 select:hover{
+    border:none;
+    outline-offset: none;
+    box-shadow: 3px 3px 3px chocolate;
+}
+.container-fluid .main #list-item-6 textarea:hover{
+    border:none;
+    outline-offset: none;
+    box-shadow: 3px 3px 3px chocolate;
+}
+ 
   
   .container-fluid .main #list-item-6 input[type=submit] {
     width: 100%;
