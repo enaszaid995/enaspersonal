@@ -4,23 +4,27 @@
     padding: 0;
     margin: 0;
     font-family: 'Baloo Tammudu 2', cursive;
-  
-    /* font-family: 'Lobster', cursive;
-    font-family: 'Nunito', sans-serif; */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container-fluid .main{
-    height: 685px;
+    height:100vh;
     position: relative;
     padding: 0;
     margin: 0;
     top: 0;
     left: 0;
 }
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 .container-fluid .main .list-group{
     background-color: chocolate;
-    height: 685px;
+    height: 100vh;
     padding-bottom: 100px;
+    width: 100%;
         
 }
 .container-fluid .main .list-group a{
@@ -51,7 +55,8 @@
     margin: 0;
     padding: 0;
     overflow-y: scroll;
-    height: 685px;
+    height: 100vh;
+    width: 100%;
 }
 /* .container-fluid .main .scrollspy-example div{
     height: 685px;
@@ -62,7 +67,7 @@
     overflow: hidden;
     filter: brightness(0.6);
     z-index: 3;
-    height: 685px;
+    height: 100vh;
 }
 
 
@@ -116,11 +121,12 @@
     width: 80%;
     margin: 0;
     padding: 0;
-    height: 685px;
+    min-height: 100vh;
     overflow: hidden;
 }
 .container-fluid .main #list-item-3{
     margin: 50px;
+    min-height: 100vh;
 }
 .container-fluid .main  h1{
     font-family: 'Lobster', cursive;
@@ -139,7 +145,7 @@
 }
 .container-fluid .main #list-item-4{
     margin: 50px;
-    height: 685px;
+    min-height: 100vh;
 }
 .container-fluid .main #list-item-4 li{
     margin: 10px 0px 0px 10px;
@@ -154,7 +160,7 @@
 }
 .container-fluid .main #list-item-5{
     margin: 50px;
-    height: 685px;
+    min-height: 100vh;
 }
 
 .container-fluid .main #list-item-5 .skillitem{
@@ -176,7 +182,7 @@
 
 .container-fluid .main #list-item-6{
     margin: 50px;
-    height: 685px;
+    min-height: 100vh;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
